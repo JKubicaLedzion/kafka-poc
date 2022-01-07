@@ -1,5 +1,7 @@
-package com.ledzion.kafkapoc.producer;
+package com.ledzion.kafkapoc.controller;
 
+import com.ledzion.kafkapoc.kafka.KafkaProducer;
+import com.ledzion.kafkapoc.model.Employee;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.ledzion.kafkapoc.producer;
+package com.ledzion.kafkapoc.model;
 
 import lombok.Data;
 
@@ -6,6 +6,6 @@ import lombok.Data;
 public class Employee {
 
     private String name;
-    private String taxId;
+    private String id;
     private String address;
 }
